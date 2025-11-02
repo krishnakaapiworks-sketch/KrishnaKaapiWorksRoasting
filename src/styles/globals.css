@@ -2,43 +2,43 @@
 
 :root {
   --font-size: 16px;
-  --background: #ece2ca;
-  --foreground: #3d2817;
-  --card: #ece2ca;
-  --card-foreground: #3d2817;
-  --popover: #ece2ca;
-  --popover-foreground: #3d2817;
-  --primary: #3d2817;
-  --primary-foreground: #ece2ca;
-  --secondary: #d4c5a9;
-  --secondary-foreground: #3d2817;
-  --muted: #d4c5a9;
-  --muted-foreground: #6b5844;
-  --accent: #d4c5a9;
-  --accent-foreground: #3d2817;
+  --background: #ffffff;
+  --foreground: #735240;
+  --card: #ffffff;
+  --card-foreground: #735240;
+  --popover: #ffffff;
+  --popover-foreground: #735240;
+  --primary: #735240;
+  --primary-foreground: #ffffff;
+  --secondary: #ece2ca;
+  --secondary-foreground: #735240;
+  --muted: #ece2ca;
+  --muted-foreground: #735240;
+  --accent: #ece2ca;
+  --accent-foreground: #735240;
   --destructive: #8b3a3a;
-  --destructive-foreground: #ece2ca;
-  --border: rgba(61, 40, 23, 0.15);
+  --destructive-foreground: #ffffff;
+  --border: #ece2ca;
   --input: transparent;
-  --input-background: #f5edd9;
-  --switch-background: #c4b59d;
+  --input-background: #ffffff;
+  --switch-background: #ece2ca;
   --font-weight-medium: 500;
   --font-weight-normal: 400;
-  --ring: #6b5844;
+  --ring: #735240;
   --chart-1: oklch(0.646 0.222 41.116);
   --chart-2: oklch(0.6 0.118 184.704);
   --chart-3: oklch(0.398 0.07 227.392);
   --chart-4: oklch(0.828 0.189 84.429);
   --chart-5: oklch(0.769 0.188 70.08);
   --radius: 0.625rem;
-  --sidebar: #ece2ca;
-  --sidebar-foreground: #3d2817;
-  --sidebar-primary: #3d2817;
-  --sidebar-primary-foreground: #ece2ca;
-  --sidebar-accent: #d4c5a9;
-  --sidebar-accent-foreground: #3d2817;
-  --sidebar-border: rgba(61, 40, 23, 0.15);
-  --sidebar-ring: #6b5844;
+  --sidebar: #ffffff;
+  --sidebar-foreground: #735240;
+  --sidebar-primary: #735240;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #ece2ca;
+  --sidebar-accent-foreground: #735240;
+  --sidebar-border: #ece2ca;
+  --sidebar-ring: #735240;
 }
 
 .dark {
@@ -129,7 +129,7 @@
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-white text-foreground;
   }
 }
 
@@ -192,6 +192,11 @@
 
 html {
   font-size: var(--font-size);
+  background-color: #ffffff;
+}
+
+body {
+  background-color: #ffffff;
 }
 
 /* Rubber Stamp Effect */

@@ -2,7 +2,7 @@ import { ImageWithFallback } from "./figma/ImageWithFallback";
 
 export function Experience() {
   return (
-    <section className="py-32 px-6 bg-[#d4c5a9] bg-opacity-30">
+    <section className="py-32 px-6 bg-white border-b border-[#ece2ca]">
       <div className="max-w-4xl mx-auto">
         <div className="grid md:grid-cols-[1fr_2fr] gap-16 mb-20">
           <div>

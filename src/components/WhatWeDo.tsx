@@ -1,6 +1,6 @@
 export function WhatWeDo() {
   return (
-    <section className="py-32 px-6 border-t border-[#3d2817] border-opacity-20">
+    <section className="py-32 px-6 bg-white border-b border-[#ece2ca]">
       <div className="max-w-4xl mx-auto">
         <div className="grid md:grid-cols-[1fr_2fr] gap-16">
           <div>
